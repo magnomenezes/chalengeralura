@@ -7,6 +7,7 @@ body, div, aside {
 }
 body {
     background: #bfc8eb;
+    width: 100%;
 }
 header {
     display: flex;
@@ -25,16 +26,19 @@ header {
 
 main {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    align-items:stretch;
+    justify-content:baseline;
+    flex-direction:row;
+    width: 100%;
+    
 }
 
 .criptografia {
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items:flex-end;
-    gap: 20px;
+    align-items:flex-start;
+    gap: 10px;
     width: 50%;
     margin: 0 0 0 5vw;
 }
@@ -100,11 +104,11 @@ main {
 }
 
 .resultado {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
-    width: 40%;
+    align-items:end;
+    width: 35%;
 }
 
 .texto-resultado::placeholder {
