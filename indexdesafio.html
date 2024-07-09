@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/Frame.png" alt="logo_alura" class="logo">
+        <div class="contato">
+            <a href="link.instagram"><img src="./assets/instagram.png" alt="logo do linkedin"></a>
+            <a href="https:github.com/magnomenezes"><img src="./assets/github.png" alt="logo do github"></a>
+        </div>
+    </header>
+        <main>
+            <div class="criptografia">
+                    <textarea wrap="hard" id="input" placeholder="Digite seu texto..." class="texto"></textarea>
+                    <p id="aviso"><img src="./assets/exclamacao.png" alt="Ponto de exclamação gray">Apenas letras minúsculas e sem acento!</p>
+                <div class="btn-criptografia">
+                    <button id="codificador" class="btn">Codificar</button>
+                   <button id="decodificador" class="btn">Decodificar</button>>
+                <div>
+            </div>
+            <div class="resultado">
+                <textarea wrap="hard" id="output" readonly placeholder="O texto codificado ou decodificado surgirá aqui!" class="texto-resultado"></textarea>
+                <button id="copiar" class="btn">Copiar</button>
+                <button class="btn" id="limpar">Limpar campos</button>
+            </div>
+
+        </main>
+        <footer>
+            <p>Desenvolvido por MM</p>
+            <p>Programa Alura One</p>
+
+        </footer>
+        <script type="text/javascript" src="script.js"></script>
+        
+  
+    
+    
+</body>
+</html>
