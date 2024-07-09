@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background: #f3e0e0;
+    background: #bfc8eb;
 }
 header {
     display: flex;
@@ -43,7 +43,7 @@ main {
 .texto, .texto-resultado {
     resize: none;
     font-size: 25px;
-    color: darkblue;
+    color: #00008b;
     padding: 10px;
     border-radius: 25px;
 }
@@ -55,7 +55,7 @@ main {
 .texto {
     background: #E5E5E5;
     border-style: dashed;
-    border-color: rgb(16, 16, 209);
+    border-color: #1010d1;
     width: 80%;
     height: 70vh;
 }
@@ -64,7 +64,7 @@ main {
     display: flex;
     gap: 5px;
     justify-content: flex-start;
-    color: rgb(87, 87, 87);
+    color: #3f3d3d;
 }
 
 .btn-criptografia {
@@ -80,10 +80,10 @@ main {
     font-size: 20px;
     padding: 5px;
     border-radius: 25px;
-    color: darkblue;
+    color: #4d4dec;
     font-weight: bold;
     background: #E5E5E5;
-    border: 2px solid darkblue;
+    border: 2px solid #00008b;
     transition: 0.5s;
 }
 
@@ -95,8 +95,8 @@ main {
     border-radius: 25px;
     color: white;
     font-weight: bold;
-    background: darkblue;
-    border-color: darkblue;
+    background: #00008b;
+    border-color: #00008b;
     cursor: pointer;
 }
 
@@ -135,13 +135,13 @@ footer {
 }
 
 footer p {
-    color: purple;
+    color: #000;
     font-size: 14px;
     text-align: center;
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 850px) {
     body {
         width: auto;
     }
